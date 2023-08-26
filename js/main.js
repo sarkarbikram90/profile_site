@@ -22,7 +22,7 @@
     this.ctx2.drawImage(this.video, 0, 0, this.width, this.height);
 	
 	var img = new Image();
-	img.src = "./images/sea_cropped.png";
+	img.src = "./images/doit.jpg";
     this.ctx2.drawImage(img, 0, 0, this.width, this.height);
 	
 	this.timerCallback();
@@ -33,7 +33,7 @@
     this.ctx1.drawImage(this.video, 0, 0, this.width, this.height);
 	
 	var img = new Image();
-	img.src = "./images/sea_cropped.png";
+	img.src = "./images/doit.jpg";
     this.ctx1.drawImage(img, 0, 0, this.width, this.height);
 	
 	let backgroundvideoFrame = this.ctx2.getImageData(0, 0, this.width, this.height);
